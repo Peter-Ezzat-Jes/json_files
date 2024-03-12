@@ -1,0 +1,25 @@
+import json
+
+# Function to convert date strings to JSON format
+def convert_to_json(dates):
+    json_data = []
+    for index, date in enumerate(dates, start=1):
+        json_entry = {
+            "id": index,
+            "name": date,
+        }
+        json_data.append(json_entry)
+    return json_data
+
+# Sample list of dates
+dates = [
+    "2024-03-12",
+    "2024-03-13",
+    "2024-03-14"
+]
+
+# Convert dates to JSON format
+json_data = convert_to_json(dates)
+
+# Print JSON data
+print(json.dumps(json_data, indent=2))
