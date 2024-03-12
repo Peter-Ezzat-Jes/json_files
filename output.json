@@ -30,11 +30,5 @@
     "name": "HierarchicalCluster",
     "parent": 3,
     "size": 6714
-  },
-  {
-    "id": 252,
-    "name": "Visualization",
-    "parent": 169,
-    "size": 16540
   }
 ]
